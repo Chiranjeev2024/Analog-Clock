@@ -54,9 +54,16 @@ body{
     background-color: #ffffff;
 }
 
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .hand i{
     position: absolute;
-    background-color: aqua;
+    background-color: var(--clr);
     width: 4px;
     height: 95px;
     border-radius: 8px;
